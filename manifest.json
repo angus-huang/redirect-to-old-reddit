@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Redirect to Old Reddit",
+  "version": "1.0",
+
+  "description": "Redirects Reddit URLs to the old design.",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.reddit.com/*"
+  ],
+
+  "background": {
+    "scripts": ["redirect-to-old-reddit.js"]
+  }
+}
